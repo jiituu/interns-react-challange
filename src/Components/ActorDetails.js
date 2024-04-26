@@ -30,7 +30,7 @@ const ActorDetails = ({ actor, onClose }) => {
                 <div className="actor-details">
                     <div className="actor-card-content">
                         <div className='actor-card-content1'>
-                            <p className="actor-info">Gender: {detailedActor.gender}</p>
+                        <h2 className="actor-name">{actor.name}</h2>                            <p className="actor-info">Gender: {detailedActor.gender}</p>
                             <p className="actor-info">Mass: {detailedActor.mass}</p>
                             <p className="actor-info">Skin color: {detailedActor.skin_color}</p>
                             <p className="actor-info">Eye color: {detailedActor.eye_color}</p>
