@@ -9,7 +9,7 @@ describe('listReducer', () => {
   it('should handle SET_LIST action', () => {
     const action = {
       type: SET_LIST,
-      data: [{ name: 'Luke Skywalker', height: '172' }] // Sample data for testing
+      data: [{ name: 'Luke Skywalker', height: '172' }] 
     };
     expect(listReducer([], action)).toEqual(action.data);
   });

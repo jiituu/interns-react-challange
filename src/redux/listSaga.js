@@ -1,9 +1,8 @@
 import { takeEvery, put } from "redux-saga/effects";
 import { LIST_DATA, SET_LIST } from "./constant";
 
-export function* getList() {
+function* getList() {
     try {
-        console.warn('get list saga called')
         const response = yield fetch("https://swapi.py4e.com/api/people/");
         if (!response.ok) {
             throw new Error('Failed to fetch data');

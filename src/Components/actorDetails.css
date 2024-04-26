@@ -19,7 +19,7 @@
     max-width: 400px;
     width: 100%;
     z-index: 999; /* Ensure the details overlay is above other content */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add box shadow for a better visual effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 .actor-detail-info{
     color: rgb(255, 255, 255);
